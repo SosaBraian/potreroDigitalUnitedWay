@@ -1,0 +1,31 @@
+
+h1{
+  background-color:red;
+  font-size: 35px;
+  color:White
+}
+
+h2{
+  background-color:red;  /*define color de fondo*/
+  font-size: 20px;  /*define el  tamaño de texto*/
+  color:White  /*color de texto*/
+}
+
+img {
+    height:auto; /*altura (si le pongo 400px se deforma img)*/
+    width: 400px; /* ancho */
+}
+.rojo {
+  background-color:green;
+  font-size: 20px;
+  color: White
+}
+
+a
+{
+  text-decoration: none; /* quitar subrayado*/
+  color: black;          /*color link*/
+}
+.enlace :hover {/*para que aparezca un color cuando pongo el cursor, esto seria ya un pseudo-selector que son palabras clave para hacer alogo especial en elemento seleccionado*/
+  color:  green;
+}
